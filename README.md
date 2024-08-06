@@ -114,4 +114,4 @@ switch (day) {
 ![image](https://github.com/user-attachments/assets/b96517b5-8055-44a3-ad4c-79585debf664)
 
 ### Conclusion
-we learnt about decision making statements in C++ and how to use them.
+we learnt about decision making statements like if, else if, and switch case in C++ and how to use them.
