@@ -71,6 +71,10 @@ switch (day) {
     break;
 }
 }
+```
 ### Output
+![image](https://github.com/user-attachments/assets/8a5ab02f-d95c-46e3-be31-b2c95f54220c)
+![image](https://github.com/user-attachments/assets/b96517b5-8055-44a3-ad4c-79585debf664)
+
 ### Conclusion
 we learnt about decision making statements in C++ and how to use them.
