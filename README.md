@@ -10,14 +10,16 @@ In C++, decision-making statements allow a program to choose different paths of 
 #### If Statement
 The 'if' statement evaluates a condition, and if the condition is true, the block of code inside the 'if' statement is executed.
 ##### Syntax: -
+```
 if(condition)
 {
    // will execute the code here depending on if the condition is satisfied 
 }
-
+```
 #### Else-if Statement
 The else-if is used to check multiple conditions. If one of the conditions is true, the corresponding block of code is executed.
 ##### Syntax: - 
+```
 if(condition_a)
 {
   // will execute the code depending whether the condtion_a is satisfied  
@@ -30,9 +32,11 @@ else
 {
   // will execute the code if both t e condtions are not satisfied  
 }
+```
 #### Switch Statement
 The switch statement is used to execute one block of code from multiple options. It is typically used when there are many conditions based on a single variable.
 #### syntax:- 
+```
 switch (expression)
 {
   case value_1;
@@ -45,7 +49,7 @@ switch (expression)
   //default_statements
   break;
 }
-
+```
 ### Code
 ```
 (a) //Name:Tanay Shivankar
