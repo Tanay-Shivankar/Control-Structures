@@ -117,3 +117,11 @@ switch (day) {
 we learnt about decision making statements like if, else if, and switch case in C++ and how to use them.
 
 ============================================================================================
+
+## 6. Decision Making Loops
+### Aim
+To study and implement C++ decision making statement loops
+### Theory
+### Code
+### Output
+### Conclusion
