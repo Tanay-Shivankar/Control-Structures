@@ -122,6 +122,77 @@ we learnt about decision making statements like if, else if, and switch case in 
 ### Aim
 To study and implement C++ decision making statement loops
 ### Theory
+Loops are used to run a block of code multiple times, from a set number of times to possibly infinitely, depending on conditions or iterations. Some of them are:-
+#### 1. For Loop
+A for loop runs a block of code for a specific number of times. It keeps running until a certain condition is met.
+##### Syntax:-
+```
+for(initalization, test condition , counter)
+{
+// this code will be executed and also iterated depending on the condition.
+}
+```
+#### 2. While Loop
+A while loop repeatedly executes a block of code as long as a specified condition remains true. It continues to run the code until the condition evaluates to false.
+##### Syntax:-
+```
+while(condition)
+{
+// code will be executed till the condition is false
+}
+```
+#### 3. Do-While Loop
+The do-while loop executes the block of code first, and then checks if the specified condition is true. Since the condition is evaluated after the execution of the code block, the code runs at least one time.
+##### Syntax:-
+```
+do
+{
+\\ code will be executed once and then the code will run till while condtion is false
+}
+while(condition)
+```
 ### Code
+```
+//Name:Tanay Shivankar
+//PRN:23070123163
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int a = 4;
+    cout << "while loop" << endl;
+    while (a<10)
+    {
+     a++;
+    cout << a << endl<<endl;
+    }
+    cout << "do while loop" <<endl;
+    do 
+    {
+     a+=5;
+     cout << a << endl<<endl;
+    }
+     while (a<40);
+    cout << "Nested For Loop" <<endl;
+    int matrix[3][3];
+     int value = 1;
+    for (int i = 0; i < 3; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            matrix[i][j] = value++;
+        }
+    }
+        cout << "3x3 Matrix:" << endl;
+    for (int i = 0; i < 3; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            cout << matrix[i][j] << " ";
+        }
+        cout << std::endl;
+    }
+    return 0;
+}
+```
 ### Output
+![image](https://github.com/user-attachments/assets/dbb1521a-316f-42e3-ba3d-e5a88f08503c)
 ### Conclusion
+In this experiment we learnt how to implement all the type of decision making statement loops like for, while and do while in C++.
+============================================================================================
